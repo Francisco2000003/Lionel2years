@@ -2,11 +2,19 @@ export const invitacion = {
   nombre: 'Luis Lionel',
   edad: 2,
 
- fechaObjetivo: '2026-10-10T16:30:00-06:00',
+  // FECHA Y HORA
+  fechaObjetivo: '2026-10-10T16:30:00-06:00',
+  fechaTexto: 'Sábado, 10 de octubre de 2026',
+  horaTexto: '4:30 PM',
 
-fechaTexto: 'Sábado, 10 de octubre de 2026',
+  // UBICACIÓN
+  lugar: 'Frente a la Ermita del Campo',
+  direccion: 'Domicilio conocido',
 
-horaTexto: '4:30 PM',
+  // CÓDIGO DE VESTIMENTA
+  vestimenta: 'Playera de tu equipo favorito',
+  vestimentaTexto:
+    '¡Ven con los colores de tu pasión! Asiste con la playera de tu equipo favorito.',
 
   // FOTO GRANDE DEL INICIO
   fotoPrincipal: '/fotos/luis-principal.jpg',
@@ -23,9 +31,9 @@ horaTexto: '4:30 PM',
     '/fotos/luis-05.jpg',
   ],
 
+  // CONFIRMACIÓN POR WHATSAPP
   whatsappUrl:
     'https://wa.me/528180942690?text=Hola,%20confirmo%20mi%20asistencia%20al%20cumpleaños%20de%20Luis%20Lionel',
 
-  mapaUrl:
-    'https://maps.google.com/',
-}
+  // MAPA
+};
